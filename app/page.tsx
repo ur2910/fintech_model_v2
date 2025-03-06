@@ -82,12 +82,12 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hello! I'm friendly assistant that teaches kids about investing in stocks responsibly.
+              Hello! I'm a friendly assistant that teaches kids about investing in stocks responsibly.
             </h1>
-            <p className="text-gray-200">
+            <p className="text-gray-500">
               I'm a fine tuned LLM and part of a series of experiments done by{" "}
               <a
-                href="https://linkin.bio/yallahalim/"
+                href="www.linkedin.com/in/ushabarghavi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
