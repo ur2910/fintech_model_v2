@@ -1,5 +1,5 @@
 <a href="www.linkedin.com/in/ushabarghavi/">
-  <h1 align="center">AI Interface Example</h1>
+  <h1 align="center">AI Chatbot Example</h1>
 </a>
 
 <p align="center">
