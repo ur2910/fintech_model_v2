@@ -82,17 +82,17 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hello! I'm a fine tuned LLM.
+              Hello! I'm friendly assistant that teaches kids about investing in stocks responsibly.
             </h1>
-            <p className="text-gray-500">
-              I'm part of a series of computational experiments done by{" "}
+            <p className="text-gray-200">
+              I'm a fine tuned LLM and part of a series of experiments done by{" "}
               <a
                 href="https://linkin.bio/yallahalim/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
               >
-                Usha Rajendiran
+                Usha
               </a>. I was built using{" "}
               <a
                 href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
@@ -132,7 +132,7 @@ export default function Chat() {
             required
             rows={1}
             autoFocus
-            placeholder="Send a message"
+            placeholder="Ask me a question"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => {
