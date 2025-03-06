@@ -16,6 +16,7 @@ import Image from "next/image";
 const examples = [
   "What is a stock?",
   "What is risk?",
+  "What type of stocks should I buy",
 ];
 
 export default function Chat() {
