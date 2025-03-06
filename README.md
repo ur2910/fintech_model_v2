@@ -1,4 +1,4 @@
-<a href="www.halimmadi.com">
+<a href="www.linkedin.com/in/ushabarghavi/">
   <h1 align="center">AI Interface Example</h1>
 </a>
 
