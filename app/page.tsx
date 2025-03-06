@@ -85,25 +85,6 @@ export default function Chat() {
             <h1 className="text-lg font-semibold text-blue">
               Hello! I'm a friendly assistant that teaches kids about investing in stocks responsibly.
             </h1>
-            <p className="text-gray-500">
-              I'm a fine tuned LLM and part of a series of experiments done by{" "}
-              <a
-                href="https://www.linkedin.com/in/ushabarghavi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
-              >
-                Usha
-              </a>. I was built using{" "}
-              <a
-                href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
-              >
-                fine-tuned GPT4.
-              </a>
-            </p>
           </div>
           <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">
             {examples.map((example, i) => (
