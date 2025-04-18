@@ -5,10 +5,24 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "AI Interface Example",
-  description:
-    "AI Interface Example Description"
-}
+   title: "Fintech Basics Assistant for Kids",
+  description: "An AI-powered chatbot for answering basic fintech questions in a kid-friendly manner.",
+  openGraph: {
+    title: "Fintech Basics Assistant for Kids",
+    description: "An AI-powered chatbot for answering basic fintech questions in a kid-friendly manner.",
+    url: "https://fintech-model-v2-35rg7a3f7-usha-rajendirans-projects.vercel.app/",
+    siteName: "Fintech AI Tools",
+    images: [
+      {
+        url: "/opengraph-image.png", // image should be in /app or /public
+        width: 1200,
+        height: 630,
+        alt: "Fintech Assistant for Kids",
+      },
+    ],
+    type: "website",
+  },
+};
 
 export default function RootLayout({
   children
