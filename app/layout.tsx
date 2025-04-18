@@ -14,7 +14,7 @@ export const metadata = {
     siteName: "Fintech AI Tools",
     images: [
       {
-        url: "/opengraph-image.png", // image should be in /app or /public
+        url: "https://fintech-model-v2-35rg7a3f7-usha-rajendirans-projects.vercel.app/opengraph-image.png", 
         width: 1200,
         height: 630,
         alt: "Fintech Assistant for Kids",
