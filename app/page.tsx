@@ -20,6 +20,26 @@ const examples = [
   "What should I be careful about?",
 ];
 
+export const metadata = {
+  title: "Fintech Basics Assistant for Kids",
+  description: "An AI-powered chatbot for answering basic fintech questions in a kid-friendly manner.",
+  openGraph: {
+    title: "Fintech Basics Assistant for Kids",
+    description: "An AI-powered chatbot for answering basic fintech questions in a kid-friendly manner.",
+    url: "https://fintech-model-v2-35rg7a3f7-usha-rajendirans-projects.vercel.app/",
+    siteName: "Fintech AI Tools",
+    images: [
+      {
+        url: "/opengraph-image.png", // image should be in /app or /public
+        width: 1200,
+        height: 630,
+        alt: "Fintech Assistant for Kids",
+      },
+    ],
+    type: "website",
+  },
+};
+
 export default function Chat() {
   const formRef = useRef<HTMLFormElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
