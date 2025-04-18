@@ -5,12 +5,14 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-   title: "Fintech Basics Assistant for Kids",
-  description: "An AI-powered chatbot for answering basic fintech questions in a kid-friendly manner.",
+   title: "Investing Basics Chatbot for Kids",
+  description: "An AI-powered chatbot for answering basic investing questions in a kid-friendly manner.",
   openGraph: {
-    title: "Fintech Basics Assistant for Kids",
-    description: "An AI-powered chatbot for answering basic fintech questions in a kid-friendly manner.",
+    title: "Investing Basics Chatbot for Kids",
+    description: "An AI-powered chatbot for answering basic investing questions in a kid-friendly manner.",
     url: "https://fintech-model-v2-35rg7a3f7-usha-rajendirans-projects.vercel.app/",
+    author: "Usha Rajendiran",
+    publishedTime: '2025-03-12T00:00:00.000Z',
     siteName: "Fintech AI Tools",
     images: [
       {
